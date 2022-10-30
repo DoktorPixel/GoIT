@@ -1,0 +1,260 @@
+/* кнопка - спокойное состояние и ховер + фокус */
+
+:root {
+    --color-primary: #757575;
+    /* главный цвет текста */
+    --color-secondary: #212121;
+    --color-logo: #2196F3;
+    --color-background-color: #F5F5F5;
+    --color-background-hero: #2F303A;
+    --color-action: #2196F3;
+    --color-white: #fff;
+    --color-adres: #757575;
+    --color-background-batton: #F5F4FA;
+    --color-black: #000;
+    --color-hero-button-action: #188CE8;
+}
+
+
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--color-primary);
+}
+
+.header {
+    background-color: var(--color-white)
+}
+
+.logo-link {
+    color: var(--color-black);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.logo-link>span {
+    color: var(--color-logo)
+}
+
+.logo-link-footer {
+    color: var(--color-white);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.logo-link-footer>span {
+    color: var(--color-logo)
+}
+
+.site-nav li {
+    list-style: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+
+}
+
+.link {
+    text-decoration: none;
+    color: var(--color-secondary);
+
+}
+
+.adres {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+    color: var(--color-adres);
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus,
+.adres:hover,
+.adres:focus {
+    color: var(--color-action);
+}
+
+.hero {
+    background-color: var(--color-background-hero);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    color: var(--color-white);
+}
+
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--color-white);
+    background-color: var(--color-action);
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--color-hero-button-action);
+}
+
+.features {
+    background-color: var(--color-background-color);
+}
+
+.features-list h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-secondary);
+}
+
+.features-list li {
+    list-style: none;
+}
+
+.promo {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-secondary);
+}
+
+.promo-list {
+    list-style: none;
+}
+
+.team h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-secondary);
+}
+
+.team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-secondary);
+}
+
+.team {
+    background-color: var(--color-background-batton)
+}
+
+.team ul {
+    list-style: none;
+}
+
+.time-item {
+    background-color: var(--color-white);
+}
+
+.footer {
+    background-color: var(--color-background-hero)
+}
+
+.address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--color-white);
+    font-style: normal
+}
+
+.address ul {
+    list-style: none;
+}
+
+.address a {
+    text-decoration: none;
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link:hover,
+.footer-link:focus,
+.footer-address:hover,
+.footer-address:focus {
+    color: var(--color-action);
+}
+
+.footer-address {
+    color: var(--color-white);
+}
+
+.filter-list {
+    list-style: none
+}
+
+.filter-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: var(--color-secondary);
+    background-color: var(--color-background-batton);
+    cursor: pointer;
+    border: none;
+}
+
+
+.filter-button:focus,
+.filter-button:hover {
+    color: var(--color-white);
+    background-color: var(--color-action);
+}
+
+
+.filter-item {
+    list-style: none
+}
+
+.filter-item h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--color-secondary);
+}
+
+.current {
+    color: var(--color-action);
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
