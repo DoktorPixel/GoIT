@@ -135,6 +135,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--color-secondary);
+    text-decoration: whitesmoke;
 }
 
 .promo-list {
