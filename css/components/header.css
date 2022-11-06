@@ -1,3 +1,79 @@
 .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
     background-color: var(--color-white)
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo-link {
+    color: var(--color-black);
+}
+
+.header-logo-link>span {
+    color: var(--color-logo)
+}
+
+
+.header-list {
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+}
+
+.header-list-item:not(:first-child) {
+    margin-left: 50px;
+}
+
+.header-list-link {
+    color: var(--color-secondary);
+}
+
+.header-list-link:hover,
+.header-list-link:focus {
+    color: var(--color-action);
+}
+
+
+.header-contacts-list {
+    display: flex;
+    align-items: center;
+}
+
+.header-contacts-item:not(:first-child) {
+    margin-left: 50px;
+}
+
+.header-contacts-link {
+    color: var(--color-adres);
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+    color: var(--color-action);
+}
+
+.humburger-menu-button {
+    display: none;
+    height: 16px;
+    width: 24px;
+    background-image: url('../../images/humburger.svg');
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .header-list,
+    .header-contacts-list {
+        display: none;
+    }
+
+    .humburger-menu-button {
+        display: block;
+    }
 }

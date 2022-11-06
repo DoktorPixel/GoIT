@@ -1,0 +1,11 @@
+git status
+
+git add .
+git commit -m 'your commit message'
+git push origin branch_name
+
+
+git checkout -b branch_name (создать новую ветку и переключиться на нее)
+
+
+git pull shh_link  склонировать удаленний репозиторий на локальний компьютер\

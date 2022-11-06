@@ -6,13 +6,14 @@
     text-decoration: none;
 }
 
-.main-container {
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
+button {
+    outline: none;
+    border: none;
 }
 
-body {
-    font-family: Roboto, sans-serif;
-    color: var(--color-primary);
+.main-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
