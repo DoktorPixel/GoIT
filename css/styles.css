@@ -1,29 +1,8 @@
+@import './components/main.css';
+@import './design-system/main.css';
+
 /* кнопка - спокойное состояние и ховер + фокус */
 
-:root {
-    --color-primary: #757575;
-    /* главный цвет текста */
-    --color-secondary: #212121;
-    --color-logo: #2196F3;
-    --color-background-color: #F5F5F5;
-    --color-background-hero: #2F303A;
-    --color-action: #2196F3;
-    --color-white: #fff;
-    --color-adres: #757575;
-    --color-background-batton: #F5F4FA;
-    --color-black: #000;
-    --color-hero-button-action: #188CE8;
-}
-
-
-body {
-    font-family: Roboto, sans-serif;
-    color: var(--color-primary);
-}
-
-.header {
-    background-color: var(--color-white)
-}
 
 .logo-link {
     color: var(--color-black);
